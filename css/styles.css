@@ -13,6 +13,11 @@
     margin-bottom: 0;
     text-transform: uppercase;
     letter-spacing: 2px;
+    font-size: 5em;
+}
+
+.header p {
+    font-size: 2em;
 }
 
 .header ul {
@@ -25,6 +30,7 @@
 
 .header ul li a {
     border-radius: 50%;
-    width: 35px;
-    height: 35px;
+    font-size: 2em;
+    width: 60px;
+    height: 60px;
 }
