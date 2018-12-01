@@ -13,6 +13,10 @@
     letter-spacing: 2px;
 }
 
+.header ul {
+    margin-bottom: 0;
+}
+
 .header ul li {
     display: inline;
 }
