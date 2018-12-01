@@ -12,3 +12,7 @@
     text-transform: uppercase;
     letter-spacing: 2px;
 }
+
+.header ul li {
+    display: inline;
+}
