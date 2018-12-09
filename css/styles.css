@@ -34,3 +34,41 @@
     width: 50px;
     height: 50px;
 }
+
+.pasirinkimai .row > div:hover a::after {
+    opacity: 1;
+}
+
+.pasirinkimai .row > div:hover img {
+    transform: scale(1.2);
+}
+
+.pasirinkimai a {
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+.pasirinkimai a::after {
+    content: "+";
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    font-size: 3em;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.3s all;
+}
+
+.pasirinkimai img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: 0.2s all;
+}
